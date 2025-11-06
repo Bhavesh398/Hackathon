@@ -187,7 +187,7 @@ export default function EventRegistration() {
         description: "Your registration has been submitted successfully.",
       });
 
-      navigate(`/events/${eventId}`);
+      navigate("/events");
 
     } catch (error: any) {
       console.error('Registration error:', error);
